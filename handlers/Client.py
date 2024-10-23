@@ -47,7 +47,7 @@ async def cb_WaitMessage(callback: types.CallbackQuery):
                                          'Не забудь представиться 🙌',
                                     show_alert=True)
 
-    await callback.message.edit_text('Нажми на кнопку отправки когда будешь готов',
+    await callback.message.edit_text('Нажмите на кнопку отправки когда будете готовы',
                                      reply_markup=kb)
 
 
